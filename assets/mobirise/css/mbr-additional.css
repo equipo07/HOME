@@ -719,6 +719,8 @@ a {
 .cid-saricCy421 {
   z-index: 1000;
   width: 100%;
+  position: relative;
+  min-height: 60px;
 }
 .cid-saricCy421 nav.navbar {
   position: fixed;
@@ -784,7 +786,7 @@ a {
 }
 .cid-saricCy421 .dropdown-menu,
 .cid-saricCy421 .navbar.opened {
-  background: #11dace !important;
+  background: #55e5c7 !important;
 }
 .cid-saricCy421 .nav-item:focus,
 .cid-saricCy421 .nav-link:focus {
@@ -818,7 +820,8 @@ a {
   min-height: 70px;
   transition: all .3s;
   border-bottom: 1px solid transparent;
-  background: rgba(17, 218, 206, 0.5);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  background: #55e5c7;
 }
 .cid-saricCy421 .navbar.opened {
   transition: all .3s;
@@ -844,7 +847,7 @@ a {
 }
 @media (min-width: 992px) {
   .cid-saricCy421 .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3rem);
+    max-height: calc(98.5vh - 4.3rem);
   }
 }
 .cid-saricCy421 .navbar.collapsed .dropdown-menu .dropdown-submenu {
@@ -963,7 +966,7 @@ a {
   padding: 0.667em 1.667em;
 }
 .cid-saricCy421 .navbar.navbar-expand-lg .dropdown .dropdown-menu {
-  background: #11dace;
+  background: #55e5c7;
 }
 .cid-saricCy421 .navbar.navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
   margin: 0;
@@ -1132,127 +1135,36 @@ a {
 .cid-sarizbfSl6 .mbr-section-btn {
   text-align: center;
 }
-.cid-sarsUJEm3A {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background: #fafafa;
+.cid-sauk8uEWWC {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
 }
-.cid-sarsUJEm3A .team-card {
+.cid-sauk8uEWWC .card-box {
+  z-index: 10;
+  position: relative;
+}
+@media (min-width: 1500px) {
+  .cid-sauk8uEWWC .container {
+    max-width: 1400px;
+  }
+}
+.cid-sauk8uEWWC .card {
+  margin: auto;
+}
+.cid-sauk8uEWWC .mbr-iconfont {
+  display: block;
+  font-size: 5rem;
+  color: #6592e6;
   margin-bottom: 2rem;
-  transition: all 0.3s;
 }
-.cid-sarsUJEm3A .team-card:hover {
-  transform: translateY(-10px);
-}
-.cid-sarsUJEm3A .card-wrap {
-  background: #ffffff;
-  border-radius: 4px;
-}
-@media (max-width: 991px) {
-  .cid-sarsUJEm3A .card-wrap {
-    margin-bottom: 2rem;
-  }
-}
-.cid-sarsUJEm3A .card-wrap .image-wrap img {
-  width: 100%;
-}
-@media (min-width: 768px) {
-  .cid-sarsUJEm3A .card-wrap .content-wrap {
-    padding: 2rem;
-  }
-}
-@media (max-width: 767px) {
-  .cid-sarsUJEm3A .card-wrap .content-wrap {
-    padding: 1rem;
-  }
-}
-.cid-sarsUJEm3A .social-row {
-  text-align: center;
-}
-.cid-sarsUJEm3A .social-row .soc-item {
-  display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-  margin-right: 0.6rem;
-  margin-bottom: 1rem;
-  padding: 0.5rem;
-  border: 2px solid #6592e6;
-  transition: all 0.3s;
-}
-.cid-sarsUJEm3A .social-row .soc-item .mbr-iconfont {
-  transition: all 0.3s;
+.cid-sauk8uEWWC .card-wrapper {
   display: flex;
   justify-content: center;
-  align-content: center;
-  color: #6592e6;
-  font-size: 1.5rem;
+  align-items: center;
 }
-.cid-sarsUJEm3A .social-row .soc-item:hover {
-  background-color: #6592e6;
-}
-.cid-sarsUJEm3A .social-row .soc-item:hover .mbr-iconfont {
-  color: #ffffff;
-}
-.cid-sarsVqsZNK {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background: #fafafa;
-}
-.cid-sarsVqsZNK .team-card {
-  margin-bottom: 2rem;
-  transition: all 0.3s;
-}
-.cid-sarsVqsZNK .team-card:hover {
-  transform: translateY(-10px);
-}
-.cid-sarsVqsZNK .card-wrap {
-  background: #ffffff;
-  border-radius: 4px;
-}
-@media (max-width: 991px) {
-  .cid-sarsVqsZNK .card-wrap {
-    margin-bottom: 2rem;
-  }
-}
-.cid-sarsVqsZNK .card-wrap .image-wrap img {
-  width: 100%;
-}
-@media (min-width: 768px) {
-  .cid-sarsVqsZNK .card-wrap .content-wrap {
-    padding: 2rem;
-  }
-}
-@media (max-width: 767px) {
-  .cid-sarsVqsZNK .card-wrap .content-wrap {
-    padding: 1rem;
-  }
-}
-.cid-sarsVqsZNK .social-row {
-  text-align: center;
-}
-.cid-sarsVqsZNK .social-row .soc-item {
-  display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-  margin-right: 0.6rem;
-  margin-bottom: 1rem;
-  padding: 0.5rem;
-  border: 2px solid #6592e6;
-  transition: all 0.3s;
-}
-.cid-sarsVqsZNK .social-row .soc-item .mbr-iconfont {
-  transition: all 0.3s;
-  display: flex;
+.cid-sauk8uEWWC .row {
   justify-content: center;
-  align-content: center;
-  color: #6592e6;
-  font-size: 1.5rem;
-}
-.cid-sarsVqsZNK .social-row .soc-item:hover {
-  background-color: #6592e6;
-}
-.cid-sarsVqsZNK .social-row .soc-item:hover .mbr-iconfont {
-  color: #ffffff;
 }
 .cid-sarj5VDHTv {
   padding-top: 1rem;
